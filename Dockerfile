@@ -1,2 +1,6 @@
-FROM httpd:2.4
-COPY ./home.html/ usr/local/apache2/htdocs/index.html
+#base IMAGE
+FROM nginx:alpine
+COPY ./home.html/ usr/share/nginx/html/index.html
+
+
+
