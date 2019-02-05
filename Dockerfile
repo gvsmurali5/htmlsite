@@ -1,2 +1,2 @@
 FROM httpd:2.4
-COPY ./home.html / /usr/local/apache2/htdocs/index.html
+COPY ./home.html/ usr/local/apache2/htdocs/index.html
