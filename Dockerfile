@@ -1,6 +1,6 @@
 #base IMAGE
 FROM nginx:alpine
-COPY ./home.html/ usr/share/nginx/html/index.html
+COPY . usr/share/nginx/html
 
 
 
